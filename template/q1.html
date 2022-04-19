@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <meta charset="UTF-8">
+  
+  <link rel= "stylesheet" type="text/css" href="{{ url_for('static', filename='q1.css') }}"
+  
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <h1>The Patient Health Questionnaire (PHQ-9)</h1>
+    <p>Take this questionnaire and help us find out!</p>
+  </div>
+  <form  id="submit">
+    <div id="question">
+      <!-- Question 1 -->
+      <h2>Little interest or pleasure in doing things</h2>
+      <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+      <!-- The value is which answer the choice corresponds to. -->
+      <label><input type="radio" name="q1" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q1" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q1" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q1" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+    <div id="question">
+      <!-- Question 2 -->
+      <h2>Feeling down depressed or hopeless</h2>
+      <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+      <label><input type="radio" name="q2" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q2" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q2" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q2" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+
+    <div id="question">
+      <!-- Question 3 -->
+      <h2>Trouble falling sleep, staying asleep, or sleeping too much</h2>
+      <!-- Choices for the third question -->
+      <label><input type="radio" name="q3" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q3" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q3" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q3" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+    <div id="question">
+      <!-- Question 4 -->
+      <h2>Feeling tired or having little energy</h2>
+      <!-- Choices for the fourth question -->
+      <label><input type="radio" name="q4" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q4" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q4" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q4" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+    <div id="question">
+      <!-- Question 5 -->
+      <h2>Poor appetite or overeating</h2>
+      <!-- Choices for the fifth question -->
+      <label><input type="radio" name="q5" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q5" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q5" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q5" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+    <div id="question">
+
+      <!-- Question 6 -->
+      <h2>Feeling bad about yourself  or that you are a failure or have let yourself or your family down</h2>
+      <!-- Choices for the six question -->
+      <label><input type="radio" name="q6" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q6" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q6" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q6" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+
+    <div id="question">
+      <!-- Question 7 -->
+      <h2>Trouble concentrating on things, such as reading the newspaper or watching television</h2>
+      <!-- Choices for the seven question -->
+      <label><input type="radio" name="q7" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q7" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q7" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q7" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+
+    <div id="question">
+      <!-- Question 8 -->
+      <h2>Moving or speaking so slowly that other people could have noticed, or the opposite being so fidgety or
+        restless that you have been moving around a lot more than usual</h2>
+      <!-- Choices for the eigth question -->
+      <label><input type="radio" name="q8" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q8" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q8" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q8" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+    <div id="question">
+      <!-- Question 9 -->
+      <h2>Thoughts that you would be better off dead or of hurting yourself in some way</h2>
+      <!-- Choices for the ninth question -->
+      <label><input type="radio" name="q9" value="c1" required>
+        Not at all
+      </label><br />
+      <label><input type="radio" name="q9" value="c2" required>
+        Several days
+      </label><br />
+      <label><input type="radio" name="q9" value="c3" required>
+        More than half the days
+      </label><br />
+      <label><input type="radio" name="q9" value="c4" required>
+        Nearly everyday
+      </label><br />
+    </div>
+</form>
+
+
+    <div id="question">
+
+      <button id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+
+      <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+    </div>
+ 
+  <div id="question"><b>
+    <div  id="answer">Your result will show up here!</b></div>
+  </div>
+
+  {% block javascript %}
+   <script>
+     
+
+// function to calculate the result of the survey
+function tabulateAnswers() {
+  console.log('submit called');
+  // initialize variables for each choice's score
+  // If you add more choices and outcomes, you must add another variable here.
+  var c1 = 0;
+  var c2 = 0;
+  var c3 = 0;
+  var c4 = 0;
+  
+  // get a list of the radio inputs on the page
+  var choices = document.getElementsByTagName('input');
+  // loop through all the radio inputs
+  for (i=0; i<choices.length; i++) {
+    console.log('inside for');
+    // if the radio is checked..
+    if (choices[i].checked) {
+      // add 1 to that choice's score
+      if (choices[i].value == 'c1') {
+        c1 = c1 + 0;
+      }
+      if (choices[i].value == 'c2') {
+        c2 = c2 + 1;
+      }
+      if (choices[i].value == 'c3') {
+        c3 = c3 + 2;
+      }
+      if (choices[i].value == 'c4') {
+        c4 = c4 + 3;
+      }
+      // If you add more choices and outcomes, you must add another if statement below.
+
+      console.log('printing total=' + c4);
+
+      window.onload = function () {
+        localStorage.setItem("storageName", c4);
+      }
+    }
+  }
+  
+  // Find out which choice got the highest score.
+  // If you add more choices and outcomes, you must add the variable here.
+  var maxscore = Math.max(c1,c2,c3,c4);
+  console.log('printing output');
+  var totalScore = c1+c2+c3+c4;
+  console.log(c1+c2+c3+c4);
+  var answerbox = document.getElementById('answer');
+ 
+  if(totalScore>=0 && totalScore <=4)
+  {
+    answerbox.innerHTML = "Score:  " + totalScore + "<br>" + "Minimal Depression"  ;
+  }
+  
+  else if (totalScore >= 5 && totalScore <= 9) {
+    answerbox.innerHTML = "Score:  " + totalScore + "<br>" + "Mild Depression" ;
+  }
+  if (totalScore >= 10 && totalScore <= 14) {
+    answerbox.innerHTML = "Score:  " + totalScore +  "Moderate Depression" ;
+  }
+  if (totalScore >= 15 && totalScore <=19) {
+    answerbox.innerHTML = "Score:  " + totalScore  +" "+ "<br>" +"Moderately severe depression" + "<br>" +" https://www.nimh.nih.gov/health/find-help";
+  }
+  if (totalScore >= 20) {
+    answerbox.innerHTML = "Score:" + totalScore +" "+ "<br>" + "Severe depression " +"<br>"+ "https://www.nimh.nih.gov/health/find-help" ;
+  
+  }
+  
+  var answerbox = document.getElementById('answer');
+
+  // If you add more choices, you must add another response below.
+}
+   </script>
+  {% endblock %} 
+
+  <div id="question">
+    <button> <a href="javascript:closeWindow();">Exit</a> </button>
+  </div> 
+  <script>
+    function closeWindow() {
+        window.open('','_parent','');
+        window.close();
+    }
+  </script> 
+</body>
+
+</html>

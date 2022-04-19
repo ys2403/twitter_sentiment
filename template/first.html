@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        {% if name %}
+        The entered username is : {{name}} 
+        {% endif %}
+    </center>
+
+    <br>
+    Your latest tweet is :
+    <br>
+    <br>
+    {% for t in tweets %}
+    {{t.full_text }}
+    <p></p>
+    {% endfor %}
+
+  <p>
+      On analysis 
+  </p>  
+    {% if out %}
+    {{out}}
+    {% endif %}
+  <br><br>
+  <div>
+  <a href="q1.html"> <button >Questionnaire page</button></a>
+  <br><br>
+  <button> <a href="javascript:closeWindow();">Close Window</a> </button>
+</div>
+
+<script>
+  function closeWindow() {
+      window.open('','_parent','');
+      window.close();
+  }
+</script> 
+</body>
+</html>

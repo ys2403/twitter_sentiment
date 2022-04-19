@@ -1,0 +1,43 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 656px;
+    text-align: center;
+}
+
+
+#question{
+   
+    color: black;
+    border-style: outset;
+    border-radius: 25px;
+    column-gap: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#question:hover{
+    transform: translate(0, -3px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-size: 14px;
+    display: inline-block;
+    width: 280px;
+    text-align: left;
+}    
+
+button{
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 25px;
+}
+
+button:hover{
+    transform: translate(0, -3px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
